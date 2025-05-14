@@ -3,8 +3,8 @@
 <br />
 
 <p align="center">
-  <img src="./assets/beecrowd.png" alt="Logo beecrowd" />
-  <img src="./assets/uri.png" alt="Logo URI"/>
+  <img src="/assets/beecrowd.png" alt="Logo beecrowd" />
+  <img src="/assets/uri.png" alt="Logo URI"/>
 </p>
 
 <p align="center">Soluções de alguns exercícios da plataforma 
