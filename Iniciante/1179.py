@@ -1,28 +1,36 @@
-par = []
-impar = []
+textoPar = ""
+cont = [0,0]
+textoImpar = ""
+texto =""
+
 for q in range(15):
     t = int(input())
     if t % 2 == 0:
-        par.append(t)
+        textoPar += f"par[{cont[0]}] = {t}\n"
+        cont[0] += 1
+        if cont[0] == 5:
+            texto += textoPar
+            textoPar = ""
+            cont[0] = 0
     else:
-        impar.append(t)
-texto = ""
-tapar = len(par)
-taimpar = len(impar)
-cont = 0
+        textoImpar += f"impar[{cont[1]}] = {t}\n"
+        cont[1] += 1
+        if cont[1] == 5:
+            texto += textoImpar
+            textoImpar = ""
+            cont[1] = 0
 
-for i in range(15):
-    if tapar > taimpar:
-        texto += f"par[{cont}] = {par[cont]}\n"
-        cont += 1
-        if cont == 5:
-            cont = 0
-            tapar -= 5
-    else:
-        texto += f"impar[{cont}] = {impar[cont]}\n"
-        cont += 1
-        if cont == 5:
-            cont = 0
-            taimpar -= 5
-
+texto += textoImpar
+texto += textoPar
 print(texto.strip())
+
+
+
+
+
+
+
+
+
+
+
