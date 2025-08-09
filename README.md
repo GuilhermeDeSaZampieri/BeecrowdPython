@@ -41,5 +41,6 @@
 
 ## Contato
 ### [Link para o meu perfil no beecrowd 🤠](https://judge.beecrowd.com/pt/profile/732141)
-### E-mail: guilherme@email.com
+### E-mail: guizampier@gmail.com
+### Linkedin: linkedin.com/in/guilherme-zampieri-0b935b247/
 
