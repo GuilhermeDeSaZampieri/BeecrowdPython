@@ -7,8 +7,9 @@
 
 <br />
 
-<p align="center">Soluções de alguns exercícios da plataforma em Python
+<p align="center">Soluções de alguns exercícios da plataforma 
     <a href="https://www.beecrowd.com.br/">beecrowd</a>
+  em Python
 </p>
 
 ## Navegar por categoria
